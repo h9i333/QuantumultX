@@ -1,0 +1,426 @@
+{
+  "id": "cjf0423.app.sub",
+  "name": "自用boxjs订阅",
+  "author": "@cjf0423",
+  "icon": "https://avatars2.githubusercontent.com/u/21050064?s=460&u=40a74913dd0a3d00670d05148c3a08c787470021&v=4",
+  "repo": "https://github.com/Peng-YM/QuanX",
+  "apps": [
+    {
+      "id": "meituan",
+      "name": "美团",
+      "keys": [
+        "meituanNotify",
+        "meituanCookie",
+        "meituanDrawKeyword",
+        "meituanPosition"
+      ],
+      "descs_html": [
+        "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/leafTheFish/DeathNote/main/meituan.js\">脚本注释</a></h4>"
+      ],
+      "settings": [
+        {
+          "id": "meituanNotify",
+          "name": "推送开关",
+          "val": 1,
+          "type": "text",
+          "placeholder": "(点击以展开说明)",
+          "desc": "推送开关变量meituanNotify，填0为不推送，填1或其他推送，默认为1"
+        },
+        {
+          "id": "meituanCookie",
+          "name": "美团cookie",
+          "val": "token=",
+          "type": "text",
+          "placeholder": "(点击以展开说明)",
+          "desc": "把*.meituan.com包里的userId(可选，用于区别多账号捉包),token填到meituanCookie里，多账号换行或者@隔开。格式：export meituanCookie='userId=12345678&token=ccccccccccccccccc'userId可以删掉不填"
+        },
+        {
+          "id": "meituanDrawKeyword",
+          "name": "抽奖",
+          "val": "",
+          "type": "text",
+          "placeholder": "(点击以展开说明)",
+          "desc": "要跑小程序抽奖的，把想抽奖的关键词填到变量meituanDrawKeyword里，多个关键词用&连起来。填.*可以抽所有"
+        },
+        {
+          "id": "meituanPosition",
+          "name": "虚拟定位",
+          "val": "113233330,23166670",
+          "type": "text",
+          "placeholder": "(点击以展开说明)",
+          "desc": "默认虚拟定位广州，需要改的自己把经纬度填到meituanPosition里，注意长度：export meituanPosition='113233330,23166670'"
+        }
+      ],
+      "script": "https://raw.githubusercontent.com/leafTheFish/DeathNote/main/meituan.js",
+      "author": "@cjf0423",
+      "repo": "https://raw.githubusercontent.com/leafTheFish/DeathNote/main/meituan.js",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/meituan.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/meituan.png"
+      ]
+    },
+    {
+      "id": "elmleaf",
+      "name": "饿了么leaf",
+      "keys": [
+        "elmCookie",
+        "elmOrderFlag",
+        "elmOrderTime"
+      ],
+      "descs_html": [
+        "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/leafTheFish/DeathNote/main/elm.js\">脚本注释</a></h4>"
+      ],
+      "settings": [
+        {
+          "id": "elmOrderFlag",
+          "name": "兑换优惠券",
+          "val": "",
+          "type": "text",
+          "placeholder": "(点击以展开说明)",
+          "desc": "要抢10元无门槛券的话，设置elmOrderFlag为1，每个账号单独设置并用&隔开，如:export elmOrderFlag='1&0&0'，这样设置为账号1抢兑10元无门槛券，其他账号不抢"
+        },
+        {
+          "id": "elmCookie",
+          "name": "饿了吗cookie",
+          "val": "",
+          "type": "text",
+          "placeholder": "(点击以展开说明)",
+          "desc": "饿了么app 或 支付宝饿了么小程序 或 微信饿了么小程序 -> 我的 -> 赚吃货豆h5.ele.me，把header里面的Cookie填进去elmCookie捉包里的Cookie全部内容"
+        },
+        {
+          "id": "elmOrderTime",
+          "name": "延迟",
+          "val": "9:59:59:950",
+          "type": "text",
+          "placeholder": "(点击以展开说明)",
+          "desc": "需要在设置的抢券时间提前1分钟跑，默认9:59:59:950开始抢，连续抢50次(大约0.5秒)可以自己配置开始抢券的时间，把elmOrderTime设置成开始的时间，格式(小时:分钟:秒:毫秒)，注意要用英文冒号，如export elmOrderTime=9:59:59:950"
+        }
+      ],
+      "script": "https://raw.githubusercontent.com/leafTheFish/DeathNote/main/elm.js",
+      "author": "@cjf0423",
+      "repo": "https://raw.githubusercontent.com/leafTheFish/DeathNote/main/elm.js",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/elem.png",
+        "https://raw.githubusercontent.com/Orz-3/task/master/elem.png"
+      ]
+    },
+    {
+      "id": "Elm",
+      "name": "饿了么吃货豆",
+      "keys": [
+        "elmck",
+        "elmdh",
+        "SM_STARTTIME"
+      ],
+      "descs_html": [
+        "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://gitee.com/xiecoll/radish-script/raw/master/ELM/lb_elm.js\">脚本注释</a></h4>"
+      ],
+      "settings": [
+        {
+          "id": "elmdh",
+          "name": "兑换优惠券",
+          "val": false,
+          "type": "boolean",
+          "desc": "兑换优惠券，默认为false,开启兑换，如需开启兑换，请设置为true"
+        },
+        {
+          "id": "elmck",
+          "name": "饿了吗cookie",
+          "val": "",
+          "type": "text",
+          "placeholder": "(点击以展开说明)",
+          "desc": "饿了么ck"
+        },
+        {
+          "id": "SM_STARTTIME",
+          "name": "延迟",
+          "val": "",
+          "type": "text",
+          "placeholder": "",
+          "desc": "默认为60，当为60时，9点59分运行脚本，10点准时开枪，如果网络慢可以设置为59，则9点59分59秒开抢"
+        }
+      ],
+      "script": "https://gitee.com/xiecoll/radish-script/raw/master/ELM/lb_elm.js",
+      "author": "@cjf0423",
+      "repo": "https://gitee.com/xiecoll/radish-script/raw/master/ELM/lb_elm.js",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/elem.png",
+        "https://raw.githubusercontent.com/Orz-3/task/master/elem.png"
+      ]
+    },
+    {
+      "id": "JD_Cookies_remark",
+      "name": "登陆助手",
+      "keys": [
+        "CookieIndex",
+        "@jd_ck_remark.remark",
+        "@jd_ck_remark.mute"
+      ],
+      "descs_html": [
+        "请勿随意在输入框修改内容，建议通过脚本去获取cookie，若要修改，请按照JSON 格式修改（<a href=\"https://www.bejson.com/json/format\">可使用此JSON校验</a> ，或点击右上角按钮🔘进行校验(如有弹窗提示则为异常JSON)）。",
+        "脚本地址【<a href=\"https://jdsharedresourcescdn.azureedge.net/jdresource/JD_extra_cookie.js\">京东多 CK获取</a>】,并按照此脚本注释进行配置",
+        "可以修改的字段，nickname,mobile",
+        "示例：[{username:\"yaya\",nickname:\"I'm YaYa man\",mobile:\"1234567890\"}]",
+        "可以根据 下标、username、nickname、status 字段检索京东多账号 ck"
+      ],
+      "settings": [
+        {
+          "id": "@jd_ck_remark.mute",
+          "name": "静音",
+          "val": false,
+          "type": "boolean",
+          "desc": "不会执行通知提示"
+        },
+        {
+          "id": "CookieIndex",
+          "name": "默认账号",
+          "val": 0,
+          "type": "text",
+          "autoGrow": false,
+          "rows": 2,
+          "placeholder": "cookie 下标（0）"
+        },
+        {
+          "id": "@jd_ck_remark.keyword",
+          "name": "检索条件",
+          "val": null,
+          "type": "text",
+          "autoGrow": false,
+          "rows": 2,
+          "placeholder": "下标（0）、username、nickname、status 的值"
+        },
+        {
+          "id": "@jd_ck_remark.remark",
+          "name": "CK 备注列表",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": false,
+          "rows": 8,
+          "desc": "CK 备注列表 (JSON 格式)"
+        }
+      ],
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/jd.png",
+        "https://raw.githubusercontent.com/Orz-3/task/master/jd.png"
+      ],
+      "author": "@dompling",
+      "repo": "https://github.com/dompling/Script/blob/master/jd/jd_cookie_search.js",
+      "script": "https://raw.githubusercontent.com/dompling/Script/master/jd/jd_cookie_search.js"
+    },
+    {
+      "id": "zqfbjl",
+      "name": "中青奖励翻倍",
+      "keys": [
+        "zqfbjlbody"
+      ],
+      "repo": "https://github.com/liuqi6968/-/blob/main/zq_fbjl.js",
+      "script": "https://raw.githubusercontent.com/liuqi6968/-/main/zq_fbjl.js",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png",
+        "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png"
+      ]
+    },
+    {
+      "id": "zqercibox",
+      "name": "中青看点5分钟60分钟任务领取",
+      "keys": [
+        "zqerciboxbody"
+      ],
+      "repo": "https://github.com/cjf935257177/QuantumultX/blob/master/script/Scheduled%20Tasks/zq_5_60.js",
+      "script": "https://raw.githubusercontent.com/cjf935257177/QuantumultX/master/script/Scheduled%20Tasks/zq_5_60.js",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png",
+        "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png"
+      ]
+    },
+    {
+      "id": "jcercibox",
+      "name": "晶彩看点5分钟60分钟任务领取",
+      "keys": [
+        "jcerciboxbody"
+      ],
+      "repo": "https://github.com/liuqi6968/-/blob/main/Jc_5_60.js",
+      "script": "https://raw.githubusercontent.com/liuqi6968/-/main/Jc_5_60.js",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png",
+        "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png"
+      ]
+    },
+    {
+      "id": "jctqKkz",
+      "name": "水果天气看看赚",
+      "keys": [
+        "jctqLookStartbody"
+      ],
+      "repo": "https://github.com/leafxcy/JavaScript/blob/main/jctq/jctq_kkz.js",
+      "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/jctq/jctq_kkz.js",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png",
+        "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png"
+      ]
+    },
+    {
+      "id": "jctqRead",
+      "name": "水果天气自动阅读",
+      "keys": [
+        "jctqWzBody",
+        "jctqTimeBody"
+      ],
+      "repo": "https://github.com/leafxcy/JavaScript/blob/main/jctq/jctq_read.js",
+      "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/jctq/jctq_read.js",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png",
+        "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png"
+      ]
+    },
+    {
+      "id": "jctqSign1",
+      "name": "水果天气日常",
+      "keys": [
+        "jctqBubbleBody",
+        "jctqGiveBoxBody",
+        "jctqGoldBody",
+        "jctqVideoBody"
+      ],
+      "repo": "https://github.com/leafxcy/JavaScript/blob/main/jctq/jctq_daily.js",
+      "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/jctq/jctq_daily.js",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png",
+        "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png"
+      ]
+    },
+    {
+      "id": "jctqSign2",
+      "name": "水果天气任务签到",
+      "keys": [
+        "jctqBoxbody",
+        "jctqSignDoubleBody"
+      ],
+      "repo": "https://github.com/leafxcy/JavaScript/blob/main/jctq/jctq_reward.js",
+      "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/jctq/jctq_reward.js",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png",
+        "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png"
+      ]
+    },
+    {
+      "id": "jctqCookie",
+      "name": "水果天气COOKIE",
+      "keys": [
+        "jctqCookie"
+      ],
+      "repo": "https://github.com/leafxcy/JavaScript/tree/main/jctq",
+      "script": "https://github.com/leafxcy/JavaScript/tree/main/jctq",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png",
+        "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png"
+      ]
+    },
+    {
+      "id": "jctq_withdraw",
+      "name": "水果天气提现",
+      "keys": [
+        "jctqWithdraw",
+        "jctqWithdrawFlag"
+      ],
+      "settings": [
+        {
+          "id": "jctqWithdrawFlag",
+          "val": "0.3",
+          "name": "提现金额",
+          "type": "radios",
+          "desc": "自动提现金额需和获取提现请求保持一致",
+          "items": [
+            {
+              "key": "0.3",
+              "label": "0.3元"
+            },
+            {
+              "key": "30",
+              "label": "30元"
+            }
+          ]
+        }
+      ],
+      "repo": "https://github.com/leafxcy/JavaScript/blob/main/jctq/jctq_reward.js",
+      "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/jctq/jctq_reward.js",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png",
+        "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png"
+      ]
+    },
+    {
+      "id": "PushBoxjsCookie",
+      "name": "V2pCookie",
+      "keys": [
+        "v2purl",
+        "v2token"
+      ],
+      "settings": [
+        {
+          "id": "v2pcookieupdate",
+          "name": "V2P上传任务",
+          "val": false,
+          "type": "boolean",
+          "desc": "打开才会上传cookie,用来刚开始使用的时候。"
+        },
+        {
+          "id": "v2purl",
+          "name": "主页地址",
+          "val": "",
+          "type": "text",
+          "desc": "请到设置查询,例子:http://192.168.1.102:12521"
+        },
+        {
+          "id": "v2token",
+          "name": "WEBHOOK TOKEN",
+          "val": "",
+          "type": "text",
+          "desc": "请到设置查询,例子:a8c259b2-67fe-D-7bfdf1f55cb3"
+        }
+      ],
+      "author": "@cenbomin",
+      "repo": [
+        "https://raw.githubusercontent.com/CenBoMin/GithubSync"
+      ],
+      "script": "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/ELECV2PJS/PushBoxjsCookie_elecV2p.js",
+      "icons": [
+        "https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/elecv2p-mini.png",
+        "https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/elecv2p.png"
+      ]
+    },
+    {
+      "id": "txstockapp",
+      "name": "自选羊毛股",
+      "keys": [
+        "signheader",
+        "signkey",
+        "taskheader",
+        "taskkey",
+        "userheader",
+        "userkey",
+        "wxtaskkey",
+        "cash",
+        "cashheader"
+      ],
+      "settings": [
+        {
+          "id": "cash",
+          "name": "提现开关:0,不自动提现;1，提现1元；5，提现5元",
+          "val": "",
+          "type": "number",
+          "desc": "默认为0,不自动提现"
+        }
+      ],
+      "author": "@cenbomin",
+      "repo": [
+        "https://raw.githubusercontent.com/CenBoMin/GithubSync"
+      ],
+      "script": "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txstockqx.js",
+      "icons": [
+        "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txzxg.png",
+        "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txzxg.png"
+      ]
+    }
+  ]
+}
