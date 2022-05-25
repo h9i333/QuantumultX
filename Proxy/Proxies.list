@@ -1,18 +1,43 @@
-proxies:
-- {"name":"🇦🇺AU|高速|TG频道FProxies整理|0524发布|","server":"43.129.87.145","type":"vmess","country":"🇦🇺AU","port":443,"uuid":"5bb4d785-4933-44cb-a162-d9a74625d2ee","alterId":0,"cipher":"auto","network":"ws","ws-path":"/","servername":"DanHuang.Jiang","ws-headers":{"HOST":"DanHuang.Jiang"},"http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-- {"name":"🇦🇺AU|高速|TG频道FProxies整理|0524发布|","server":"45.114.116.57","type":"ssr","country":"🇦🇺AU","port":543,"password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","protocol-param":"3326:chencheng","obfs":"plain","obfs-param":"DanHuang.Jiang"}
-- {"name":"Relay|🇦🇺AU|中速|TG频道FProxies整理|0524发布|","server":"521sg.fans8.xyz","type":"vmess","country":"🇦🇺AU","port":443,"uuid":"7f4ff2e1-c08f-35bd-afe7-4a6a386907aa","alterId":2,"cipher":"auto","network":"ws","ws-path":"/ray","servername":"DanHuang.Jiang","ws-headers":{"HOST":"DanHuang.Jiang"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-- {"name":"Relay|🇦🇺AU|中速|TG频道FProxies整理|0524发布|","server":"jgwxn2.gaox.ml","type":"trojan","country":"🇦🇺AU","port":443,"password":"c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26","skip-cert-verify":true,"udp":true}
-- {"name":"Relay|🇦🇺AU|中速|TG频道FProxies整理|0524发布|","server":"kr04.wangxd.life","type":"trojan","country":"🇦🇺AU","port":3052,"password":"3a2c0c6c-9ee5-c05f-c951-fcd73831983e","skip-cert-verify":true,"udp":true}
-- {"name":"🇧🇩BD|中速|TG频道FProxies整理|0524发布|","server":"220.158.232.150","type":"vmess","country":"🇧🇩BD","port":16616,"uuid":"59a8f92b-62c0-431e-9b28-a91c43056a6e","alterId":0,"cipher":"auto","network":"ws","ws-path":"/","servername":"DanHuang.Jiang","ws-headers":{"HOST":"DanHuang.Jiang"},"http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-- {"name":"🇱🇹LT|中速|TG频道FProxies整理|0524发布|","server":"213.183.53.208","type":"ss","country":"🇱🇹LT","port":9053,"password":"SBM7R883jBmnqe6C","cipher":"aes-256-cfb"}
-- {"name":"🇱🇹LT|中速|TG频道FProxies整理|0524发布|","server":"213.183.53.208","type":"ss","country":"🇱🇹LT","port":9015,"password":"ZpNDDKRu9MagNvaf","cipher":"aes-256-cfb"}
-- {"name":"🇱🇹LT|中速|TG频道FProxies整理|0524发布|","server":"213.183.53.208","type":"ss","country":"🇱🇹LT","port":9000,"password":"a3GFYt36Sm82Vys9","cipher":"aes-256-cfb"}
-- {"name":"🇱🇹LT|中速|TG频道FProxies整理|0524发布|","server":"213.183.53.208","type":"ss","country":"🇱🇹LT","port":9008,"password":"y9VURyNzJWNRYEGQ","cipher":"aes-256-cfb"}
-- {"name":"🇱🇹LT|中速|TG频道FProxies整理|0524发布|","server":"213.183.53.208","type":"ss","country":"🇱🇹LT","port":9024,"password":"BejrQvtu9sqUeNuZ","cipher":"aes-256-cfb"}
-- {"name":"🇱🇹LT|中速|TG频道FProxies整理|0524发布|","server":"213.183.53.208","type":"ss","country":"🇱🇹LT","port":9064,"password":"cp8pRSUAyLhTfVWH","cipher":"aes-256-cfb"}
-- {"name":"🇱🇹LT|中速|TG频道FProxies整理|0524发布|","server":"213.183.53.208","type":"ss","country":"🇱🇹LT","port":9046,"password":"NvS8N4Vf8qAGPSCL","cipher":"aes-256-cfb"}
-- {"name":"🇱🇹LT|中速|TG频道FProxies整理|0524发布|","server":"213.183.53.208","type":"ss","country":"🇱🇹LT","port":9080,"password":"VP8ZPxQpJtZRCjfZ","cipher":"aes-256-cfb"}
-- {"name":"🇱🇹LT|中速|TG频道FProxies整理|0524发布|","server":"213.183.53.208","type":"ss","country":"🇱🇹LT","port":9001,"password":"UkXRsXvR6buDMG2Y","cipher":"aes-256-cfb"}
-- {"name":"🇱🇹LT|中速|TG频道FProxies整理|0524发布|","server":"213.183.53.208","type":"ss","country":"🇱🇹LT","port":9050,"password":"FG5ddLsMPbV5CutE","cipher":"aes-256-cfb"}
-- {"name":"🇱🇹LT|中速|TG频道FProxies整理|0524发布|","server":"213.183.53.208","type":"ss","country":"🇱🇹LT","port":9031,"password":"BwcAUZk8hUFAkDGN","cipher":"aes-256-cfb"}
+vmess=43.129.87.145:443, method=aes-128-gcm, password=5bb4d785-4933-44cb-a162-d9a74625d2ee, obfs=ws, obfs-uri=/, fast-open=false, udp-relay=false, aead=true, tag=🇦🇺 AU|高速|1
+
+vmess=521hk.fans8.xyz:80, method=aes-128-gcm, password=7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, obfs=wss, obfs-host=521hk.fans8.xyz, obfs-uri=/ray, tls-verification=false, fast-open=false, udp-relay=false, aead=false, tag=🇦🇺AU|高速|2
+
+vmess=523hk1.fans8.xyz:443, method=aes-128-gcm, password=7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, obfs=wss, obfs-host=523hk1.fans8.xyz, obfs-uri=/ray, tls-verification=false, fast-open=false, udp-relay=false, aead=false, tag=🇦🇺AU|高速|3
+
+shadowsocks=45.114.116.57:543, method=chacha20-ietf, password=mblank1port, ssr-protocol=auth_aes128_md5, ssr-protocol-param=3326:chencheng, fast-open=false, udp-relay=false, tag=🇦🇺 AU|高速|4
+
+vmess=331tw.fans8.xyz:80, method=aes-128-gcm, password=7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, obfs=wss, obfs-host=331tw.fans8.xyz, obfs-uri=/ray, tls-verification=false, fast-open=false, udp-relay=false, aead=false, tag=🇨🇦CA|高速|1
+
+vmess=330tw.fans8.xyz:443, method=aes-128-gcm, password=7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, obfs=wss, obfs-host=330tw.fans8.xyz, obfs-uri=/ray, tls-verification=false, fast-open=false, udp-relay=false, aead=false, tag=🇨🇦CA|高速|2
+
+vmess=521sg.fans8.xyz:443, method=aes-128-gcm, password=7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, obfs=wss, obfs-host=521sg.fans8.xyz, obfs-uri=/ray, tls-verification=false, fast-open=false, udp-relay=false, aead=false, tag=🇦🇺AU|中速|1
+
+vmess=bgpv2.ktyjsq.com:12205, method=aes-128-gcm, password=9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, fast-open=false, udp-relay=false, aead=true, tag=🇷🇺RU|中速|1
+
+vmess=bgpv2.ktyjsq.com:12221, method=aes-128-gcm, password=9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, fast-open=false, udp-relay=false, aead=true, tag=🇫🇷FR|中速|1
+
+vmess=cm01.db-link.in:13302, method=aes-128-gcm, password=c4fa06ca-c18f-37a4-ba0e-63537c0fb672, obfs=wss, obfs-host=cm01.db-link.in, obfs-uri=/db, tls-verification=false, fast-open=false, udp-relay=false, aead=false, tag=🇺🇸US|中速|1
+
+vmess=bgpv2.ktyjsq.com:12229, method=aes-128-gcm, password=9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, fast-open=false, udp-relay=false, aead=true, tag=🇩🇪DE|中速|1
+
+shadowsocks=213.183.53.208:9053, method=aes-256-cfb, password=SBM7R883jBmnqe6C, fast-open=false, udp-relay=false, tag=LT|中速|1
+
+shadowsocks=213.183.53.208:9070, method=aes-256-cfb, password=bf7v334KKDV3YDhH, fast-open=false, udp-relay=false, tag= LT|中速|2
+
+shadowsocks=213.183.53.208:9015, method=aes-256-cfb, password=ZpNDDKRu9MagNvaf, fast-open=false, udp-relay=false, tag=LT|中速|3
+
+shadowsocks=213.183.53.208:9000, method=aes-256-cfb, password=a3GFYt36Sm82Vys9, fast-open=false, udp-relay=false, tag=LT|中速|4
+
+shadowsocks=213.183.53.208:9008, method=aes-256-cfb, password=y9VURyNzJWNRYEGQ, fast-open=false, udp-relay=false, tag=LT|中速|5
+
+shadowsocks=213.183.53.208:9098, method=aes-256-cfb, password=aLpQtfEZe445QyHk, fast-open=false, udp-relay=false, tag=LT|中速|6
+
+shadowsocks=213.183.53.208:9058, method=aes-256-cfb, password=dML2sfhbVwvtfNPe, fast-open=false, udp-relay=false, tag=LT|中速|7
+
+shadowsocks=213.183.53.208:9024, method=aes-256-cfb, password=BejrQvtu9sqUeNuZ, fast-open=false, udp-relay=false, tag=LT|中速|8
+
+shadowsocks=213.183.53.208:9080, method=aes-256-cfb, password=VP8ZPxQpJtZRCjfZ, fast-open=false, udp-relay=false, tag=LT|中速|9
+
+shadowsocks=213.183.53.208:9001, method=aes-256-cfb, password=UkXRsXvR6buDMG2Y, fast-open=false, udp-relay=false, tag=LT|中速|10
+
+shadowsocks=213.183.53.208:9043, method=aes-256-cfb, password=HSZuyJQcWe8dxNdF, fast-open=false, udp-relay=false, tag=LT|中速|11
