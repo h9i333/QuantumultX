@@ -41,3 +41,67 @@ shadowsocks=213.183.53.208:9080, method=aes-256-cfb, password=VP8ZPxQpJtZRCjfZ, 
 shadowsocks=213.183.53.208:9001, method=aes-256-cfb, password=UkXRsXvR6buDMG2Y, fast-open=false, udp-relay=false, tag=LT|中速|10
 
 shadowsocks=213.183.53.208:9043, method=aes-256-cfb, password=HSZuyJQcWe8dxNdF, fast-open=false, udp-relay=false, tag=LT|中速|11
+
+vmess=v4.ssrsub.com:443, method=aes-128-gcm, password=620d82a8-22ba-4945-90ba-a2bed1cde1d2, obfs=wss, obfs-host=v4.ssrsub.com, obfs-uri=/api/v3/download.getFile, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=🏁
+
+vmess=v1.ssrsub.com:443, method=aes-128-gcm, password=620d82a8-22ba-4945-90ba-a2bed1cde1d2, obfs=wss, obfs-host=v1.ssrsub.com, obfs-uri=/api/v3/download.getFile, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=🏁 ¹
+
+vmess=v5.ssrsub.com:443, method=aes-128-gcm, password=620d82a8-22ba-4945-90ba-a2bed1cde1d2, obfs=wss, obfs-host=v5.ssrsub.com, obfs-uri=/api/v3/download.getFile, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=🏁 ²
+
+vmess=sxqxj.cn:2164, method=aes-128-gcm, password=aba50dd4-5484-3b05-b14a-4661caf862d5, obfs=wss, obfs-host=sxqxj.cn, obfs-uri=/ws, tls-verification=false, fast-open=false, udp-relay=false, aead=false, tag=🇨🇳 ³
+
+vmess=117.28.242.156:2164, method=aes-128-gcm, password=aba50dd4-5484-3b05-b14a-4661caf862d5, obfs=wss, obfs-host=117.28.242.156, obfs-uri=/ws, tls-verification=false, fast-open=false, udp-relay=false, aead=false, tag=🇨🇳 ⁴
+
+trojan=192.9.180.187:28443, password=c94c922d-c833-48c1-b9d1-81c8b7b826f9, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=🇺🇸 US_1273 |22.18Mb
+
+trojan=193.123.66.22:28443, password=c94c922d-c833-48c1-b9d1-81c8b7b826f9, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=🇺🇸 US_1277 |24.97Mb
+
+trojan=165.22.53.6:28443, password=c94c922d-c833-48c1-b9d1-81c8b7b826f9, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=🇸🇬 SG_1144 | 9.28Mb
+
+vmess=v2ray3.bonds.id:443, method=aes-128-gcm, password=014291fb-3808-4ae8-9303-e1f40d58bb4f, obfs=wss, obfs-host=v2ray3.bonds.id, obfs-uri=/howdy, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=🇸🇬
+
+trojan=bai-piao-wang-zhe.98848.xyz:443, password=f4a6a397-0007-4e45-800c-16d8a7a587ed, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=🇸🇬 ⁵
+
+vmess=129.150.61.170:29493, method=aes-128-gcm, password=ac0d0076-93d2-48ad-ba6e-ea5c8d7b0132, obfs=ws, obfs-host=129.150.61.170, obfs-uri=/, fast-open=false, udp-relay=false, aead=true, tag=🇸🇬 ²⁵
+
+vmess=v2ray3.bonds.id:443, method=aes-128-gcm, password=014291fb-3808-4ae8-9303-e1f40d58bb4f, obfs=wss, obfs-host=v2ray3.bonds.id, obfs-uri=/howdy, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=🇸🇬 ¹⁴
+
+shadowsocks=185.4.65.6:21247, method=aes-256-cfb, password=vDS9G2p, fast-open=false, udp-relay=false, tag=🇷🇺 ¹
+
+trojan=s4.upyun.online:12340, password=c0276440-f163-4f40-a08c-78b158ce6c4f, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=🇩🇪 ¹³
+
+trojan=80.78.132.177:28443, password=c94c922d-c833-48c1-b9d1-81c8b7b826f9, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=🇩🇪 ¹⁶
+
+trojan=193.123.66.22:28000, password=5650562e-1e9e-45bf-a50b-8446c815e60b, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=🇦🇶 ¹⁶
+
+trojan=193.123.86.165:28000, password=5650562e-1e9e-45bf-a50b-8446c815e60b, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=🇦🇶 ¹⁷
+
+vmess=v1.ssrsub.com:443, method=aes-128-gcm, password=620d82a8-22ba-4945-90ba-a2bed1cde1d2, obfs=wss, obfs-host=v1.ssrsub.com, obfs-uri=/api/v3/download.getFile, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=🏁 ²⁰
+
+vmess=v2.ssrsub.com:443, method=aes-128-gcm, password=620d82a8-22ba-4945-90ba-a2bed1cde1d2, obfs=wss, obfs-host=v2.ssrsub.com, obfs-uri=/api/v3/download.getFile, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=🏁 ²¹
+
+vmess=v3.ssrsub.com:443, method=aes-128-gcm, password=620d82a8-22ba-4945-90ba-a2bed1cde1d2, obfs=wss, obfs-host=v3.ssrsub.com, obfs-uri=/api/v3/download.getFile, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=🏁 ²²
+
+vmess=v4.ssrsub.com:443, method=aes-128-gcm, password=620d82a8-22ba-4945-90ba-a2bed1cde1d2, obfs=wss, obfs-host=v4.ssrsub.com, obfs-uri=/api/v3/download.getFile, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=🏁 ²³
+
+vmess=v5.ssrsub.com:443, method=aes-128-gcm, password=620d82a8-22ba-4945-90ba-a2bed1cde1d2, obfs=wss, obfs-host=v5.ssrsub.com, obfs-uri=/api/v3/download.getFile, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=🏁 ²⁴
+
+vmess=xfzz0.111003.gq:42810, method=aes-128-gcm, password=52ebe94b-b931-3c5d-9f65-701835eae6c9, obfs=wss, obfs-host=usrn1.lixiaolong.buzz, obfs-uri=/v2ray, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=🇭🇰 ¹⁵
+
+trojan=jp1.v2yyds.cc:32111, password=c0669346-7ba9-4fda-91a4-238fb8d0a4d2, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=🇯🇵 ⁵
+
+trojan=155.248.172.87:28000, password=5650562e-1e9e-45bf-a50b-8446c815e60b, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=🇯🇵 ⁵⁰
+
+trojan=155.248.172.87:28443, password=c94c922d-c833-48c1-b9d1-81c8b7b826f9, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=🇯🇵 ⁵¹
+
+trojan=s1.upyun.online:12340, password=316b40c0-0dab-4ea1-9666-ac1658b033b2, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=🇯🇵 ⁵²
+
+vmess=210.140.75.152:80, method=aes-128-gcm, password=f613af75-f9eb-3d84-9357-7c3b00d950a2, obfs=wss, obfs-host=ty37.speedsvip.co, obfs-uri=/live/cctv6_2/index.m3u8, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=🇯🇵 ⁴⁷
+
+trojan=s2.upyun.online:12340, password=c0276440-f163-4f40-a08c-78b158ce6c4f, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=🇯🇵 ⁵³
+
+vmess=ahdaeph8.com:443, method=aes-128-gcm, password=aba50dd4-5484-3b05-b14a-4661caf862d5, obfs=wss, obfs-host=ahdaeph8.com, obfs-uri=/ws, tls-verification=false, fast-open=false, udp-relay=false, aead=false, tag=🇺🇸 ⁴⁸
+
+trojan=charge.starspace.link:443, password=8UnS7eSMi8OFKfje, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=🇺🇸 ⁵⁰
+
+trojan=192.9.180.187:28443, password=c94c922d-c833-48c1-b9d1-81c8b7b826f9, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=🇦🇺
