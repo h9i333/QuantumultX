@@ -1,3 +1,25 @@
+shadowsocks=gz2.52168.org:12107, method=aes-256-cfb, password=epChJS35fV, ssr-protocol=auth_aes128_sha1, ssr-protocol-param=149:yip9bp7numd, obfs=tls1.2_ticket_auth, obfs-host=45d99149.baidu.com, fast-open=false, udp-relay=false, tag=🇯🇵 日本 Japan(VIP)★
+
+shadowsocks=gz2.52168.org:12106, method=aes-256-cfb, password=epChJS35fV, ssr-protocol=auth_aes128_sha1, ssr-protocol-param=149:yip9bp7numd, obfs=tls1.2_ticket_auth, obfs-host=45d99149.baidu.com, fast-open=false, udp-relay=false, tag=🇸🇬 新加坡 Singapore(VIP)★
+
+shadowsocks=gz1.52168.org:11103, method=aes-256-cfb, password=epChJS35fV, ssr-protocol=auth_aes128_sha1, ssr-protocol-param=149:yip9bp7numd, obfs=tls1.2_ticket_auth, obfs-host=45d99149.baidu.com, fast-open=false, udp-relay=false, tag=🇮🇩 印度尼西亚 Indonesia(VIP)●
+
+shadowsocks=gz2.52168.org:12104, method=aes-256-cfb, password=epChJS35fV, ssr-protocol=auth_aes128_sha1, ssr-protocol-param=149:yip9bp7numd, obfs=tls1.2_ticket_auth, obfs-host=45d99149.baidu.com, fast-open=false, udp-relay=false, tag=🇹🇷 土耳其 Turkey★
+
+shadowsocks=gz1.52168.org:11105, method=aes-256-cfb, password=epChJS35fV, ssr-protocol=auth_aes128_sha1, ssr-protocol-param=149:yip9bp7numd, obfs=tls1.2_ticket_auth, obfs-host=45d99149.baidu.com, fast-open=false, udp-relay=false, tag=🇲🇾 马来西亚 Malaysia(VIP)●
+
+shadowsocks=gz1.52168.org:11101, method=aes-256-cfb, password=epChJS35fV, ssr-protocol=auth_aes128_sha1, ssr-protocol-param=149:yip9bp7numd, obfs=tls1.2_ticket_auth, obfs-host=45d99149.baidu.com, fast-open=false, udp-relay=false, tag=🇵🇭 菲律宾 Philippine●
+
+trojan=s2.upyun.online:12340, password=316b40c0-0dab-4ea1-9666-ac1658b033b2, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=LSP专线
+
+vmess=ddns-jp02.ayanami.best:80, method=aes-128-gcm, password=5f405152-88b2-4e5e-9091-b730e65e8983, obfs=ws, obfs-host=tms.dingtalk.com, obfs-uri=/, fast-open=true, udp-relay=false, aead=true, tag=一天不色色，癫痫发作作🧟‍♀️
+
+vmess=ddns-jp01.ayanami.best:80, method=aes-128-gcm, password=5f405152-88b2-4e5e-9091-b730e65e8983, obfs=ws, obfs-host=tms.dingtalk.com, obfs-uri=/, fast-open=true, udp-relay=false, aead=true, tag=Look Look B 😡
+
+shadowsocks=20.239.186.178:8313, method=chacha20-ietf-poly1305, password=ljqdalu13.., fast-open=false, udp-relay=false, tag=Look Look B 专线
+
+shadowsocks=20.239.186.178:8313, method=chacha20-ietf-poly1305, password=ljqdalu13.., fast-open=false, udp-relay=false, tag=HK
+
 vmess=43.129.87.145:443, method=aes-128-gcm, password=5bb4d785-4933-44cb-a162-d9a74625d2ee, obfs=ws, obfs-uri=/, fast-open=false, udp-relay=false, aead=true, tag=🇦🇺 AU|高速|1
 
 vmess=521hk.fans8.xyz:80, method=aes-128-gcm, password=7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, obfs=wss, obfs-host=521hk.fans8.xyz, obfs-uri=/ray, tls-verification=false, fast-open=false, udp-relay=false, aead=false, tag=🇦🇺AU|高速|2
