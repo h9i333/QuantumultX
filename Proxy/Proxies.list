@@ -12,3 +12,5 @@ trojan=80.78.132.177:28443, password=c94c922d-c833-48c1-b9d1-81c8b7b826f9, over-
 trojan=155.248.172.87:28000, password=5650562e-1e9e-45bf-a50b-8446c815e60b, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=🇯🇵 ⁵⁰
 shadowsocks=3.39.227.119:443, method=aes-256-cfb, password=amazonskr05, fast-open=false, udp-relay=false, tag=🇰🇷 KR|高速
 vmess=152.70.87.181:47756, method=aes-128-gcm, password=fdb848b2-d7c1-423b-a4e4-9930551030bb, fast-open=false, udp-relay=false, aead=true, tag=🇯🇵 JP|中速
+trojan=20.210.229.72:3389, password=d66013c645b93c5c, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=IPLB专线+01
+vmess=chunchuan-02.aikala.shop:80, method=aes-128-gcm, password=eb605789-7873-46e5-8ce5-edf4f1eba751, obfs=ws, obfs-host=chunchuan-02.aikala.shop, obfs-uri=/, fast-open=false, udp-relay=false, aead=true, tag=🇰🇷KR|中速
