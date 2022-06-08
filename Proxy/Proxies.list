@@ -15,6 +15,7 @@ vmess=152.70.87.181:47756, method=aes-128-gcm, password=fdb848b2-d7c1-423b-a4e4-
 trojan=20.210.229.72:3389, password=d66013c645b93c5c, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=IPLB专线+01
 trojan=120.233.186.250:3384, password=8c72bafbd4837610, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=IPLB+4
 vmess=52.139.153.69:474, method=aes-128-gcm, password=4f5f3b44-4217-4e98-bc7f-69f0ca4d2636, fast-open=false, udp-relay=false, aead=true, tag=Alien|4M/S
+vmess=els200.jklist.ga:2095, method=aes-128-gcm, password=e94c706a-235f-4663-e214-edfa052f256e, obfs=ws, obfs-host=els200.jklist.ga, obfs-uri=/wo.png, fast-open=false, udp-relay=false, aead=true, tag=🇷🇺俄罗斯
 vmess=chunchuan-02.aikala.shop:80, method=aes-128-gcm, password=eb605789-7873-46e5-8ce5-edf4f1eba751, obfs=ws, obfs-host=chunchuan-02.aikala.shop, obfs-uri=/, fast-open=false, udp-relay=false, aead=true, tag=🇰🇷KR|中速
 trojan=TJ-10.t8737.shop:11223, password=afbba9fe-80f3-4fbd-837c-35ede864fea6, over-tls=true, tls-host=TJ-10.t8737.shop, tls-verification=false, fast-open=true, udp-relay=true, tag=gjwj-63TB
 trojan=TJ-11.t8737.shop:11223, password=afbba9fe-80f3-4fbd-837c-35ede864fea6, over-tls=true, tls-host=TJ-11.t8737.shop, tls-verification=false, fast-open=true, udp-relay=true, tag= gjwj-13TB
