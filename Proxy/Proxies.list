@@ -1,26 +1,10 @@
 vmess = vsg1.0bad.com:443, method=chacha20-ietf-poly1305, password=927094d3-d678-4763-8591-e240d0bcae87, aead=true, tls13=false, obfs=wss, obfs-host=vsg1.0bad.com, obfs-uri=/chat, fast-open=false, udp-relay=true, tag=Singapore1🇸🇬
-vmess = vjp1.0bad.com:443, method=chacha20-ietf-poly1305, password=927094d3-d678-4763-8591-e240d0bcae87, aead=true, tls13=false, obfs=wss, obfs-host=vjp1.0bad.com, obfs-uri=/chat, fast-open=false, udp-relay=true, tag=Japan1🇯🇵
 vmess = vjp2.0bad.com:443, method=chacha20-ietf-poly1305, password=927094d3-d678-4763-8591-e240d0bcae87, aead=true, tls13=false, obfs=wss, obfs-host=vjp2.0bad.com, obfs-uri=/chat, fast-open=false, udp-relay=true, tag=Japan2🇯🇵
-vmess = vjp3.0bad.com:443, method=chacha20-ietf-poly1305, password=927094d3-d678-4763-8591-e240d0bcae87, aead=true, tls13=false, obfs=wss, obfs-host=vjp3.0bad.com, obfs-uri=/chat, fast-open=false, udp-relay=true, tag=Japan3🇯🇵
-vmess = vus4.0bad.com:443, method=chacha20-ietf-poly1305, password=927094d3-d678-4763-8591-e240d0bcae87, aead=true, tls13=false, obfs=wss, obfs-host=vus4.0bad.com, obfs-uri=/chat, fast-open=false, udp-relay=true, tag=US4🇺🇸
 vmess = vau1.0bad.com:443, method=chacha20-ietf-poly1305, password=927094d3-d678-4763-8591-e240d0bcae87, aead=true, tls13=false, obfs=wss, obfs-host=vau1.0bad.com, obfs-uri=/chat, fast-open=false, udp-relay=true, tag=Australia🇦🇺
-vmess = vin1.0bad.com:443, method=chacha20-ietf-poly1305, password=927094d3-d678-4763-8591-e240d0bcae87, aead=true, tls13=false, obfs=wss, obfs-host=vin1.0bad.com, obfs-uri=/chat, fast-open=false, udp-relay=true, tag=India🇮🇳
-vmess = vin2.0bad.com:443, method=chacha20-ietf-poly1305, password=927094d3-d678-4763-8591-e240d0bcae87, aead=true, tls13=false, obfs=wss, obfs-host=vin2.0bad.com, obfs-uri=/chat, fast-open=false, udp-relay=true, tag=India2🇮🇳
 vmess=sxqxj.cn:2164, method=aes-128-gcm, password=aba50dd4-5484-3b05-b14a-4661caf862d5, obfs=wss, obfs-host=sxqxj.cn, obfs-uri=/ws, tls-verification=false, fast-open=false, udp-relay=false, aead=false, tag=🇨🇳 ³
 vmess=117.28.242.156:2164, method=aes-128-gcm, password=aba50dd4-5484-3b05-b14a-4661caf862d5, obfs=wss, obfs-host=117.28.242.156, obfs-uri=/ws, tls-verification=false, fast-open=false, udp-relay=false, aead=false, tag=🇨🇳 ⁴
 trojan=80.78.132.177:28443, password=c94c922d-c833-48c1-b9d1-81c8b7b826f9, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=🇩🇪 ¹⁶
 trojan=155.248.172.87:28000, password=5650562e-1e9e-45bf-a50b-8446c815e60b, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=🇯🇵 ⁵⁰
-shadowsocks=3.39.227.119:443, method=aes-256-cfb, password=amazonskr05, fast-open=false, udp-relay=false, tag=🇰🇷 KR|高速
-vmess=152.70.87.181:47756, method=aes-128-gcm, password=fdb848b2-d7c1-423b-a4e4-9930551030bb, fast-open=false, udp-relay=false, aead=true, tag=🇯🇵 JP|中速
 trojan=20.210.229.72:3389, password=d66013c645b93c5c, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=IPLB专线+01
 trojan=120.233.186.250:3384, password=8c72bafbd4837610, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=IPLB+4
-vmess=52.139.153.69:474, method=aes-128-gcm, password=4f5f3b44-4217-4e98-bc7f-69f0ca4d2636, fast-open=false, udp-relay=false, aead=true, tag=Alien|4M/S
-vmess=els200.jklist.ga:2095, method=aes-128-gcm, password=e94c706a-235f-4663-e214-edfa052f256e, obfs=ws, obfs-host=els200.jklist.ga, obfs-uri=/wo.png, fast-open=false, udp-relay=false, aead=true, tag=🇷🇺俄罗斯
 vmess=chunchuan-02.aikala.shop:80, method=aes-128-gcm, password=eb605789-7873-46e5-8ce5-edf4f1eba751, obfs=ws, obfs-host=chunchuan-02.aikala.shop, obfs-uri=/, fast-open=false, udp-relay=false, aead=true, tag=🇰🇷KR|中速
-trojan=TJ-10.t8737.shop:11223, password=afbba9fe-80f3-4fbd-837c-35ede864fea6, over-tls=true, tls-host=TJ-10.t8737.shop, tls-verification=false, fast-open=true, udp-relay=true, tag=gjwj-63TB
-trojan=TJ-11.t8737.shop:11223, password=afbba9fe-80f3-4fbd-837c-35ede864fea6, over-tls=true, tls-host=TJ-11.t8737.shop, tls-verification=false, fast-open=true, udp-relay=true, tag= gjwj-13TB
-trojan=TJ-12.t8737.shop:11223, password=afbba9fe-80f3-4fbd-837c-35ede864fea6, over-tls=true, tls-host=TJ-12.t8737.shop, tls-verification=false, fast-open=true, udp-relay=true, tag= gjwj-8TB
-trojan=TJ-13.t8737.shop:11223, password=afbba9fe-80f3-4fbd-837c-35ede864fea6, over-tls=true, tls-host=TJ-13.t8737.shop, tls-verification=false, fast-open=true, udp-relay=true, tag= gjwj-53TB
-trojan=TJ-14.t8737.shop:11223, password=afbba9fe-80f3-4fbd-837c-35ede864fea6, over-tls=true, tls-host=TJ-14.t8737.shop, tls-verification=false, fast-open=true, udp-relay=true, tag= gjwj-29TB
-trojan=TJ-15.t8737.shop:11223, password=afbba9fe-80f3-4fbd-837c-35ede864fea6, over-tls=true, tls-host=TJ-15.t8737.shop, tls-verification=false, fast-open=true, udp-relay=true, tag= gjwj-68TB
-trojan=TJ-21.t8737.shop:11223, password=afbba9fe-80f3-4fbd-837c-35ede864fea6, over-tls=true, tls-host=TJ-21.t8737.shop, tls-verification=false, fast-open=true, udp-relay=true, tag= gjwj-73TB
