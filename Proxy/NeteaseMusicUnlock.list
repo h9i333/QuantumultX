@@ -1,0 +1,15 @@
+# From:https://github.com/bilibili-boom/Rules/raw/master/UnblockNeteaseMusic.list#checkurl=http://interface3.music.163.com
+
+shadowsocks=sh-tx.ommmg.xyz:20000, method=chacha20-ietf, password=20000, fast-open=false, udp-relay=false, tag=🇨🇳 NeteaseUnblock-CN-WIN
+shadowsocks=sh-tx.ommmg.xyz:30000, method=chacha20-ietf, password=30000, fast-open=false, udp-relay=false, tag=🇨🇳 NeteaseUnblock-CN-IOS
+http=os.tencentcdn.net:25000, tls=false, tag=🇨🇳 Netease Proxy China 1
+http=pc.tencentcdn.net:35000, tls=false, tag=🇨🇳 Netease Proxy China 2
+http=163.wcc.best:80, tls=false, tag=🇨🇳 Netease Proxy China 3
+http=163.wcc.best:443, tls=false, tag=🇨🇳 Netease Proxy China 4
+
+# From:https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NeteaseMusic/AgentNode/QuantumultX.snippet
+
+http=music.lolico.me:39000, over-tls=false, fast-open=false, udp-relay=false, server_check_url=http://interface3.music.163.com, tag=NeteaseMusic Unlock 1
+shadowsocks=music.desperadoj.com:30003, method=aes-128-gcm, password=desperadoj.com_free_proxy_d39m, fast-open=false, udp-relay=false, server_check_url=http://interface3.music.163.com, tag=NeteaseMusic Unlock 3
+http=music.griouges.cn:39000, over-tls=false, fast-open=false, udp-relay=false, server_check_url=http://interface3.music.163.com, tag=NeteaseMusic Unlock 5
+http=119.176.253.89:9080, over-tls=false, fast-open=false, udp-relay=false,  server_check_url=http://interface3.music.163.com,tag=NeteaseMusic Unlock 10
