@@ -15,7 +15,6 @@ http=music.griouges.cn:39000, over-tls=false, fast-open=false, udp-relay=false, 
 http=119.176.253.89:9080, over-tls=false, fast-open=false, udp-relay=false,  server_check_url=http://interface3.music.163.com,tag=NeteaseMusic Unlock 10
 
 # ✅ Others
-# > 网易云本地解锁节点
 http=music.lolico.me:39000, over-tls=false, fast-open=false, udp-relay=false, tag=Music 1
 http=MUSIC.GRIOUGES.CN:39000, over-tls=false, fast-open=false, udp-relay=false, tag=Music 2
 http=LOLICO.ME:443, over-tls=false, fast-open=false, udp-relay=false, tag= Music 3
@@ -23,5 +22,6 @@ http=101.132.79.113:23333, over-tls=false, fast-open=false, udp-relay=false, tag
 shadowsocks=MUSIC.DESPERADOJ.COM:30001, method=aes-128-gcm, password=desperadoj.com_free_proxy_d39m, fast-open=false, udp-relay=false, tag=Music 5
 shadowsocks=127.0.0.1:8080, method=aes-128-gcm, password=This_proxy_is_for_free, fast-open=false, udp-relay=false, tag=网易云音乐01
 shadowsocks=music.desperadoj.com:30001, method=aes-128-gcm, password=desperadoj.com_free_proxy_etg0, fast-open=false, udp-relay=false, tag=网易云音乐02
+vmess=music1.ziypai.com:51002, method=aes-128-gcm, password=37005add-eee4-4142-9b1a-f323eeb2b81d, obfs=ws, obfs-uri=/NeteasePhone, fast-open=false, udp-relay=false, tag=网易云音乐03
 
 
